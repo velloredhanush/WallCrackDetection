@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>pavement crack detection</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="static/css/business-casual.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+   <h1 class="site-heading text-center text-white d-none d-lg-block">
+    <span class="site-heading-upper text-primary mb-3">AUTOMATIC PAVEMENT CRACK DETECTION</span>
+    <span class="site-heading-lower">Deep Learning</span>
+  </h1>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item px-lg-4">
+             <a class="nav-link text-uppercase text-expanded" href="{{url_for('index')}}">Home
+
+            </a>
+          </li>
+          <li class="nav-item active px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="{{url_for('about')}}">About Project</a>
+          </li>
+          <li class="nav-item  px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="{{url_for('user')}}">Customer/User</a>
+              <span class="sr-only">(current)</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-section">
+    <div class="container">
+      <div class="product-item">
+        <div class="product-item-title d-flex">
+          <div class="bg-faded p-5 d-flex ml-auto rounded">
+            <h2 class="section-heading mb-0">
+              <span class="section-heading-upper">About Deep Learning</span>
+            </h2>
+          </div>
+        </div>
+        <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="static/img/p.jpg" width="800px" height="450px" alt="">
+        <div class="product-item-description d-flex mr-auto">
+          <div class="bg-faded p-5 rounded">
+            <p class="mb-0" style="width:600px; height:100px;">
+
+         Deep learning is a class of machine learning algorithms that uses multiple layers to progressively extract higher-level features from the raw input. For example, in image processing, lower layers may identify edges, while higher layers may identify the concepts relevant to a human such as digits or letters or faces.
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section">
+    <div class="container">
+      <div class="product-item">
+        <div class="product-item-title d-flex">
+          <div class="bg-faded p-5 d-flex mr-auto rounded">
+            <h2 class="section-heading mb-0">
+              <span class="section-heading-upper">About Convolutional Neural Network</span>
+            </h2>
+          </div>
+        </div>
+        <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="static/img/cn.png" alt="">
+        <div class="product-item-description d-flex ml-auto">
+          <div class="bg-faded p-5 rounded">
+            <p class="mb-0">
+          A Convolutional Neural Network (ConvNet/CNN) is a Deep Learning algorithm which can take in an input image, assign importance (learnable weights and biases) to various aspects/objects in the image and be able to differentiate one from the other.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section">
+    <div class="container">
+      <div class="product-item">
+        <div class="product-item-title d-flex">
+          <div class="bg-faded p-5 d-flex ml-auto rounded">
+            <h2 class="section-heading mb-0">
+              <span class="section-heading-upper">PROJECT WORK FLOW</span>
+            </h2>
+          </div>
+        </div>
+        <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="static/img/Capture.PNG" alt="">
+        <div class="product-item-description d-flex mr-auto">
+          <div class="bg-faded p-5 rounded">
+            <p class="mb-0" style="width:800px; height:10px; !important">
+        <h6 style="color:green">Create Dataset </h6>
+                     <p style="color:black"> The dataset containing images of the desired objects to be recognize is split into
+                         training and testing dataset with the test size of  20-30%. </p>
+
+<h6 style="color:green">Pre-processing </h6>
+
+                  <p style="color:black">Resizing and reshaping the images into appropriate format to train our model.  </p>
+
+
+<h6 style="color:green">Training</h6>
+<p style="color:black"> Use the pre-processed training dataset is used to train our model ResNet50 using CNN algorithm. </p>
+
+					</div>
+				 </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer text-faded text-center py-5">
+    <div class="container">
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="static/vendor/jquery/jquery.min.js"></script>
+  <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
